@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Async Demo</title>
+  <title>ADV User Data</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top:50px; background:#f0f0f0; }
+    button { padding:10px 20px; font-size:16px; background:#0077ff; color:#fff; border:none; border-radius:5px; cursor:pointer; }
+    button:hover { background:#005fcc; }
+    #output { margin-top:20px; padding:15px; background:#fff; display:inline-block; border-radius:5px; min-width:250px; text-align:left; }
+    .loading { font-style:italic; color:gray; }
+    .error { color:red; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to the Async Demo</h1>
+  <h1>ADV User Data</h1>
   <button id="fetch-user">Fetch User</button>
-  <p id="output"></p>
-  
+  <div id="output"></div>
   <script src="script.js"></script>
 </body>
 </html>
